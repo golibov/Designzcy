@@ -1,0 +1,116 @@
+.service {
+    margin: 0 auto;
+    margin-top: 60px;
+    max-width: 1170px;
+}
+
+.service .service-wrap h2 {
+    font-family: "DM Sans";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52.08px;
+    text-align: center;
+    padding-bottom: 45px;
+    color: #3d3d3f;
+}
+
+.service .service-wrap .card-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.service .service-wrap .card-wrap .cards {
+    background-color: white;
+    width: 356px;
+    height: 302px;
+    border-radius: 23px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    margin-top: 45px;
+    padding: 20px;
+}
+
+.service .service-wrap .card-wrap .cards .webDiv {
+    position: absolute;
+    background-color: white;
+    padding: 20px;
+    width: 102px;
+    height: 102px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    top: -50px;
+    margin: auto;
+    left: 50px;
+    right: 50px;
+    transition: all 0.3s ease;
+}
+
+.service .service-wrap .card-wrap .cards .web {
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    top: 100px;
+}
+
+.service .service-wrap .card-wrap .cards h3 {
+    font-family: "DM Sans";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31.25px;
+    text-align: center;
+    color: #3d3d3f;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.service .service-wrap .card-wrap .cards p {
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    color: #3d3d3f;
+    padding-top: 10px;
+    margin-bottom: 25px;
+}
+
+.service .service-wrap .card-wrap .cards .arrowDiv {
+    background-color: white;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    transition: background-color 0.3s ease;
+}
+
+.service .service-wrap .card-wrap .cards .arrow {
+    width: 20px;
+    height: 18px;
+}
+.service .service-wrap .card-wrap .cards:hover {
+    box-shadow:
+        rgba(17, 17, 26, 0.05) 0px 4px 16px,
+        rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+.service .service-wrap .card-wrap .cards:hover .webDiv {
+    background-color: #fd8e6d;
+    width: 110px;
+    height: 110px;
+}
+
+.service .service-wrap .card-wrap .cards:hover .arrowDiv {
+    background-color: #fd8e6d;
+    width: 65px;
+    height: 65px;
+    box-shadow:
+        rgba(0, 0, 0, 0.4) 0px 2px 4px,
+        #fd8e6d 0px 7px 13px -3px,
+        #fd8e6d 0px -3px 0px inset;
+}

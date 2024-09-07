@@ -38,7 +38,8 @@
 }
 body {
     font-family: "DM Sans", sans-serif;
-    font-family: "Rubik", sans-serif;
+    /* font-family: "Rubik", sans-serif; */
+    background-color: #f8f9fe;
 }
 
 

@@ -1,0 +1,55 @@
+.best {
+    margin: 0 auto;
+    margin-top: 120px;
+}
+
+.best h2 {
+    font-family: "DM Sans";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52.08px;
+    text-align: center;
+    color: #3d3d3f;
+    padding-bottom: 55px;
+}
+
+.best .best-list {
+    max-width: 1170px;
+    height: 314px;
+    border-radius: 17px;
+    border: 2px solid #ebebebcc;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 54px 71px 56px 67px; /* padding qisqartirilgan shaklda berilgan */
+}
+
+.best .best-list .list {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center; /* Yangilik */
+    justify-content: center;
+}
+
+.best .best-list .list img {
+    width: 99.68px;
+    height: 90px;
+    margin: 0 auto 23px; /* margin-left: auto; margin-right: auto; bilan bir xil */
+}
+
+.best .best-list .list strong {
+    font-family: "DM Sans";
+    font-size: 36px;
+    font-weight: 700;
+    padding-bottom: 13px;
+    color: #3d3d3f;
+}
+
+.best .best-list .list p {
+    font-family: "DM Sans";
+    font-size: 24px;
+    font-weight: 400;
+    color: #3d3d3f;
+}
+
