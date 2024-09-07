@@ -1,0 +1,55 @@
+.intro {
+    margin: 0 auto;
+    flex-wrap: wrap-reverse;
+}
+
+.intro-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 136px;
+}
+.intro-wrapper .intro-wrap-left {
+    max-width: 538px;
+}
+.intro-wrapper .intro-wrap-left h1 {
+    font-family: "Rubik";
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 85.32px;
+    color: #3d3d3f;
+    padding-bottom: 42px;
+}
+.intro-wrapper .intro-wrap-left p {
+    font-family: "Rubik";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.7px;
+    color: #3d3d3f;
+    max-width: 536px;
+    padding-bottom: 40px;
+}
+
+.intro-wrapper .intro-wrap-left .consultation {
+    width: 219px;
+    height: 53px;
+    top: 532px;
+    left: 135px;
+    gap: 0px;
+    border-radius: 5px;
+    border: none;
+    background: linear-gradient(2.79deg, #f35f2f -13.68%, rgba(243, 95, 47, 0.75) 121.16%);
+    font-family: " Rubik";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.7px;
+    text-align: center;
+    color: white;
+    transition: all 0.3s ease;
+}
+.intro-wrapper .intro-wrap-left .consultation:hover {
+    background: linear-gradient(2.79deg, #ffffff -13.68%, #ffffff 121.16%);
+    border: 1px solid #f35f2f;
+    color: #f35f2f;
+    
+}

@@ -1,38 +1,44 @@
-.App {
-  text-align: center;
+@font-face {
+    font-display: swap;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: url("./assets/fonts/dm-sans-v15-latin-regular.woff2") format("woff2");
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+    font-display: swap;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 500;
+    src: url("./assets/fonts/dm-sans-v15-latin-500.woff2") format("woff2");
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@font-face {
+    font-display: swap;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 700;
+    src: url("./assets/fonts/dm-sans-v15-latin-700.woff2") format("woff2");
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    list-style-type: none;
+    text-decoration: none;
+}
+.container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+body {
+    font-family: "DM Sans", sans-serif;
+    font-family: "Rubik", sans-serif;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
